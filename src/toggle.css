@@ -32,13 +32,13 @@ input.cmn-toggle-yes-no + label:after {
   line-height: 20px;
 }
 input.cmn-toggle-yes-no + label:before {
-  background-color: #ddd;
+  background-color: black;
   content: attr(data-off);
   transition: transform 0.5s;
   backface-visibility: hidden;
 }
 input.cmn-toggle-yes-no + label:after {
-  background-color: #ddd;
+  background-color: black;
   content: attr(data-on);
   transition: transform 0.5s;
   transform: rotateY(180deg);
