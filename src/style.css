@@ -144,3 +144,7 @@ td.progress-bar-done {
 td.progress-bar-left {
     border: 1px solid #BBBBBB;
 }
+
+.yui-skin-sam .yuimenu ul {
+  background-color: whitesmoke;
+}
