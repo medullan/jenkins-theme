@@ -1,19 +1,8 @@
-# Jenkins Atlassian Theme
+# Jenkins Custom Theme
 
-<img src="http://danieljonsson.net/jenkins_beard.png" alt="" />
-
-So you want Bamboo but you can´t afford it? Well, you´re in luck! Introducing **Jenkins Atlassian Theme** - Bamboo for the poor. It's the perfect middle ground - not Bamboo, but looks like it could be!
-
-In just *seven* easy steps this camouflage will make Jenkins look just like a product from Atlassian and blend in with the rest of your Atlassian development environment like Stash, Jira and Confluence.
-
-*The project is not affiliated or endorsed by Atlassian*
-
-## Live Demo
-A live demo with the latest changes is available at [test.do][livedemo].
-
-Login with the following credentials:
-- **Username:** DrJenkins
-- **Password:** SunflowerRainbowPrince
+This is a combination between the [Jenkins Atlassian](https://github.com/djonsson/jenkins-atlassian-theme)
+Theme and the
+[Rackspace](https://github.com/rackerlabs/canon-jenkins) Theme
 
 ## Installation
 
@@ -37,12 +26,9 @@ Login with the following credentials:
 Skip step 4 and use these URLs in step 6:
 
 **Master (Stable)**
-- Hosted CSS: `http://master.source.test.do/dist/theme.css`
-- Hosted Javascript: `http://master.source.test.do/dist/theme.js`
+- Hosted CSS: `http://medullan.github.io/jenkins-theme/theme.css`
+- Hosted Javascript: `http://medullan.github.io/jenkins-theme/theme.js`
 
-**Develop (Test environment)**
-- Hosted CSS: `http://develop.source.test.do/dist/theme.css`
-- Hosted Javascript: `http://develop.source.test.do/dist/theme.js`
 
 ## Development
 
@@ -65,8 +51,8 @@ grunt deploy
 
 And you can find the files at:
 
-- `http://YOURUSER.github.io/jenkins-atlassian-theme/theme.css`
-- `http://YOURUSER.github.io/jenkins-atlassian-theme/theme.js`
+- `http://YOURUSER.github.io/jenkins-theme/theme.css`
+- `http://YOURUSER.github.io/jenkins-theme/theme.js`
 
 NB. This assumes you have already created a repository named `YOURUSER.github.io`
 - replace `YOURUSER` with your actual github username or organisation name
@@ -79,18 +65,6 @@ NB. This assumes you have already created a repository named `YOURUSER.github.io
 
 If you are experiencing issues please let me know! Also, feel free to contribute!
 
-##Thanks to
-- [JQuery Plugin][jquery] for the jQuery plugin
-- [Simple Theme Plugin][simple] for the Simple Theme plugin
-- [Atlassian][atlassian] for the the design inspiration and for making awesome products
-- [Doony][doony] for inspiration and javascript
-- [ProgressCircle.js][progresscircle] for the spinning progress circles that replace the orbs
-
 [jquery]: https://wiki.jenkins-ci.org/display/JENKINS/jQuery+Plugin
 [simple]: https://wiki.jenkins-ci.org/display/JENKINS/Simple+Theme+Plugin
 [gravatar]: https://wiki.jenkins-ci.org/display/JENKINS/Gravatar+plugin
-
-[doony]: https://github.com/kevinburke/doony
-[progresscircle]: https://github.com/qiao/ProgressCircle.js
-[atlassian]: http://atlassian.com
-[livedemo]: http://test.do
