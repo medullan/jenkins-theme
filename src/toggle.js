@@ -36,6 +36,42 @@ jQuery(function($){
             writeCookie('toggle', 'unchecked', 30);
         }
     });
+
+    // patch for multijob
+    $("#projectstatus img.icon-red").each(function() {
+        $(this).addClass("stock-jenkins-ball");
+    });
+    $("#projectstatus img.icon-blue").each(function() {
+        $(this).addClass("stock-jenkins-ball");
+    });
+    $("#projectstatus img.icon-yellow").each(function() {
+        $(this).addClass("stock-jenkins-ball");
+    });
+    $("#projectstatus img.icon-grey").each(function() {
+        $(this).addClass("stock-jenkins-ball");
+    });
+    $("#projectstatus img.icon-red-anime").each(function() {
+        $(this).addClass("stock-jenkins-ball");
+    });
+    $("#projectstatus img.icon-blue-anime").each(function() {
+        $(this).addClass("stock-jenkins-ball");
+    });
+    $("#projectstatus img.icon-yellow-anime").each(function() {
+        $(this).addClass("stock-jenkins-ball");
+    });
+    $("#projectstatus img.icon-grey-anime").each(function() {
+        $(this).addClass("stock-jenkins-ball");
+    });
+
+    $("#projectstatus img.icon-red").parent().addClass("td-icon-red");
+    $("#projectstatus img.icon-blue").parent().addClass("td-icon-blue");
+    $("#projectstatus img.icon-red-anime").parent().addClass("td-icon-red-anime");
+    $("#projectstatus img.icon-grey-anime").parent().addClass("td-icon-grey-anime");
+    $("#projectstatus img.icon-yellow-anime").parent().addClass("td-icon-yellow-anime");
+    $("#projectstatus img.icon-grey").parent().addClass("td-icon-grey");
+    $("#projectstatus img.icon-blue-anime").parent().addClass("td-icon-blue-anime");
+    $("#projectstatus img.icon-yellow").parent().addClass("td-icon-yellow");
+    // Patch for multijob - end
 });
 
 function checkToggle(toggle) {
