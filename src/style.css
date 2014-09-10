@@ -149,6 +149,7 @@ td.td-icon-yellow{
 td.td-sep{
   border-top: white solid 1px;
   border-bottom: white solid 1px;
+  width: 12px;
 }
 
 /* Building state (orange stripes) styling for build process table on left side */
