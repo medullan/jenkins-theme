@@ -63,14 +63,14 @@ jQuery(function($){
         $(this).addClass("stock-jenkins-ball");
     });
 
-    $("#projectstatus img.icon-red").parent().addClass("td-icon-red");
-    $("#projectstatus img.icon-blue").parent().addClass("td-icon-blue");
-    $("#projectstatus img.icon-red-anime").parent().addClass("td-icon-red-anime");
-    $("#projectstatus img.icon-grey-anime").parent().addClass("td-icon-grey-anime");
-    $("#projectstatus img.icon-yellow-anime").parent().addClass("td-icon-yellow-anime");
-    $("#projectstatus img.icon-grey").parent().addClass("td-icon-grey");
-    $("#projectstatus img.icon-blue-anime").parent().addClass("td-icon-blue-anime");
-    $("#projectstatus img.icon-yellow").parent().addClass("td-icon-yellow");
+    $("#projectstatus img.icon-red").parent().addClass("td-icon-red td-sep");
+    $("#projectstatus img.icon-blue").parent().addClass("td-icon-blue td-sep");
+    $("#projectstatus img.icon-red-anime").parent().addClass("td-icon-red-anime td-sep");
+    $("#projectstatus img.icon-grey-anime").parent().addClass("td-icon-grey-anime td-sep");
+    $("#projectstatus img.icon-yellow-anime").parent().addClass("td-icon-yellow-anime td-sep");
+    $("#projectstatus img.icon-grey").parent().addClass("td-icon-grey td-sep");
+    $("#projectstatus img.icon-blue-anime").parent().addClass("td-icon-blue-anime td-sep");
+    $("#projectstatus img.icon-yellow").parent().addClass("td-icon-yellow td-sep");
     // Patch for multijob - end
 });
 
