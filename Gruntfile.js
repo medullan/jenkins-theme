@@ -11,7 +11,7 @@ module.exports = function(grunt) {
         js : {
             src : [
                 'src/login.js',
-                'src/toggle.js' 
+                'src/toggle.js'
             ],
             dest : 'dist/theme.js'
         }
@@ -44,12 +44,7 @@ module.exports = function(grunt) {
       },
 
     });
-    grunt.loadNpmTasks('grunt-contrib-concat');
-    grunt.loadNpmTasks('grunt-contrib-uglify');
-    grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.loadNpmTasks('grunt-contrib-cssmin');
-    grunt.loadNpmTasks('grunt-gh-pages');
-    grunt.loadNpmTasks('grunt-contrib-copy');
+    require('load-grunt-tasks')(grunt);
     grunt.registerTask('default', [ 'copy', 'concat:css', 'cssmin:css', 'concat:js', 'uglify:js' ]);
     grunt.registerTask ('deploy', ['default', 'gh-pages']);
 };
