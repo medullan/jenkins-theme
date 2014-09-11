@@ -38,42 +38,18 @@ jQuery(function($){
     });
 
     // patch for multijob
-    $("#projectstatus img.icon-red").each(function() {
-        $(this).addClass("stock-jenkins-ball");
-    });
-    $("#projectstatus img.icon-blue").each(function() {
-        $(this).addClass("stock-jenkins-ball");
-    });
-    $("#projectstatus img.icon-yellow").each(function() {
-        $(this).addClass("stock-jenkins-ball");
-    });
-    $("#projectstatus img.icon-grey").each(function() {
-        $(this).addClass("stock-jenkins-ball");
-    });
-    $("#projectstatus img.icon-red-anime").each(function() {
-        $(this).addClass("stock-jenkins-ball");
-    });
-    $("#projectstatus img.icon-blue-anime").each(function() {
-        $(this).addClass("stock-jenkins-ball");
-    });
-    $("#projectstatus img.icon-yellow-anime").each(function() {
-        $(this).addClass("stock-jenkins-ball");
-    });
-    $("#projectstatus img.icon-grey-anime").each(function() {
-        $(this).addClass("stock-jenkins-ball");
-    });
-    $("#projectstatus img.icon-disabled").each(function() {
-        $(this).addClass("stock-jenkins-ball");
-    });
-    $("#projectstatus img.icon-nobuilt").each(function() {
-        $(this).addClass("stock-jenkins-ball");
-    });
-    $("#projectstatus img.icon-disabled-anime").each(function() {
-        $(this).addClass("stock-jenkins-ball");
-    });
-    $("#projectstatus img.icon-nobuilt-anime").each(function() {
-        $(this).addClass("stock-jenkins-ball");
-    });
+    $("#projectstatus img.icon-red").addClass("stock-jenkins-ball");
+    $("#projectstatus img.icon-blue").addClass("stock-jenkins-ball");
+    $("#projectstatus img.icon-yellow").addClass("stock-jenkins-ball");
+    $("#projectstatus img.icon-grey").addClass("stock-jenkins-ball");
+    $("#projectstatus img.icon-red-anime").addClass("stock-jenkins-ball");
+    $("#projectstatus img.icon-blue-anime").addClass("stock-jenkins-ball");
+    $("#projectstatus img.icon-yellow-anime").addClass("stock-jenkins-ball");
+    $("#projectstatus img.icon-grey-anime").addClass("stock-jenkins-ball");
+    $("#projectstatus img.icon-disabled").addClass("stock-jenkins-ball");
+    $("#projectstatus img.icon-nobuilt").addClass("stock-jenkins-ball");
+    $("#projectstatus img.icon-disabled-anime").addClass("stock-jenkins-ball");
+    $("#projectstatus img.icon-nobuilt-anime").addClass("stock-jenkins-ball");
 
     $("#projectstatus img.icon-red").parent().addClass("td-icon-red td-sep");
     $("#projectstatus img.icon-blue").parent().addClass("td-icon-blue td-sep");
