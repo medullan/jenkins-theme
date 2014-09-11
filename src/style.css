@@ -173,3 +173,7 @@ td.progress-bar-left {
 .yui-skin-sam .yuimenu ul {
   background-color: whitesmoke;
 }
+
+div[id^='valerr'] .top-sticker-inner {
+  display:none;
+}
