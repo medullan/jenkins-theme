@@ -50,6 +50,8 @@ jQuery(function($){
     $("#projectstatus img.icon-nobuilt").addClass("stock-jenkins-ball");
     $("#projectstatus img.icon-disabled-anime").addClass("stock-jenkins-ball");
     $("#projectstatus img.icon-nobuilt-anime").addClass("stock-jenkins-ball");
+    $("#projectstatus img.icon-aborted-anime").addClass("stock-jenkins-ball");
+    $("#projectstatus img.icon-aborted").addClass("stock-jenkins-ball");
 
     $("#projectstatus img.icon-red").parent().addClass("td-icon-red td-sep");
     $("#projectstatus img.icon-blue").parent().addClass("td-icon-blue td-sep");
@@ -63,7 +65,11 @@ jQuery(function($){
     $("#projectstatus img.icon-nobuilt").parent().addClass("td-icon-nobuilt td-sep");
     $("#projectstatus img.icon-disabled-anime").parent().addClass("td-icon-disabled-anime td-sep");
     $("#projectstatus img.icon-nobuilt-anime").parent().addClass("td-icon-nobuilt-anime td-sep");
+    $("#projectstatus img.icon-aborted-anime").parent().addClass("td-icon-aborted-anime td-sep");
+    $("#projectstatus img.icon-aborted").parent().addClass("td-icon-aborted td-sep");
     // Patch for multijob - end
+
+    $(".test-trend-caption").parent().addClass("test-trend-coverage");
 });
 
 function checkToggle(toggle) {
