@@ -139,6 +139,8 @@ table.progress-bar.red td.progress-bar-done{
     background-color: #00A96D !important;
 }
 
+td.td-icon-nobuilt,
+td.td-icon-disabled,
 td.td-icon-grey{
   background-color: #CCC !important;
 }
