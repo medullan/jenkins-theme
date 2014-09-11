@@ -109,7 +109,7 @@ body {
 #projectstatus td:first-child {
     border-left: 1px solid #E6E6E6;
     border-right: 1px solid #E6E6E6;
-    background-color: #CCCCCC !important;
+    background-color: #CCCCCC;
 }
 
 /* Hide standard Jenkins project status "ball" graphics in project table */
@@ -147,7 +147,7 @@ td.td-icon-grey{
   background-color: #CCC !important;
 }
 td.td-icon-yellow{
-  background-color: #dfdf07 !important;
+  background-color: #FFD700 !important;
 }
 
 td.td-sep{
@@ -181,5 +181,5 @@ div[id^='valerr'] .top-sticker-inner {
 }
 
 #main-panel-content div#shutdown-msg {
-  background-color: #ef2929 !important;
+  background-color: #B22222 !important;
 }
