@@ -179,3 +179,7 @@ td.progress-bar-left {
 div[id^='valerr'] .top-sticker-inner {
   display:none;
 }
+
+#main-panel-content div#shutdown-msg {
+  background-color: #ef2929 !important;
+}
