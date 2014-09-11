@@ -68,6 +68,12 @@ jQuery(function($){
     $("#projectstatus img.icon-nobuilt").each(function() {
         $(this).addClass("stock-jenkins-ball");
     });
+    $("#projectstatus img.icon-disabled-anime").each(function() {
+        $(this).addClass("stock-jenkins-ball");
+    });
+    $("#projectstatus img.icon-nobuilt-anime").each(function() {
+        $(this).addClass("stock-jenkins-ball");
+    });
 
     $("#projectstatus img.icon-red").parent().addClass("td-icon-red td-sep");
     $("#projectstatus img.icon-blue").parent().addClass("td-icon-blue td-sep");
@@ -79,6 +85,8 @@ jQuery(function($){
     $("#projectstatus img.icon-yellow").parent().addClass("td-icon-yellow td-sep");
     $("#projectstatus img.icon-disabled").parent().addClass("td-icon-disabled td-sep");
     $("#projectstatus img.icon-nobuilt").parent().addClass("td-icon-nobuilt td-sep");
+    $("#projectstatus img.icon-disabled-anime").parent().addClass("td-icon-disabled-anime td-sep");
+    $("#projectstatus img.icon-nobuilt-anime").parent().addClass("td-icon-nobuilt-anime td-sep");
     // Patch for multijob - end
 });
 
