@@ -64,7 +64,7 @@ body {
 }
 
 #main-panel-content div:first-of-type {
-    background-color: transparent;
+    background-color: transparent !important;
 }
 
 #side-panel .task-link {
@@ -172,7 +172,7 @@ td.progress-bar-left {
     border: 1px solid #BBBBBB;
 }
 
-.yui-skin-sam .yui-ac-content,
+.yui-skin-sam #page-body.container-fluid .yui-ac-content,
 .yui-skin-sam .yuimenu ul {
   background-color: whitesmoke !important;
 }
