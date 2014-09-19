@@ -68,6 +68,8 @@ jQuery(function($){
     $("#projectstatus img.icon-aborted-anime").parent().addClass("td-icon-aborted-anime td-sep");
     $("#projectstatus img.icon-aborted").parent().addClass("td-icon-aborted td-sep");
     // Patch for multijob - end
+
+    $(".test-trend-caption").parent().addClass("test-trend-coverage");
 });
 
 function checkToggle(toggle) {
